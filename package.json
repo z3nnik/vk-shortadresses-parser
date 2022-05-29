@@ -1,0 +1,25 @@
+{
+  "name": "vk-shortaddresses-parser",
+  "version": "1.0.0",
+  "description": "Typescript parser for vk short addresses (2 and 3 symbols)",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Nikita Zenkov",
+    "url": "https://vk.com/zn",
+    "email": "zn@vk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/z3nnik/vk-shortaddresses-parser.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.36",
+    "axios": "^0.21.1"
+  }
+}

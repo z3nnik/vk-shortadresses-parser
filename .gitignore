@@ -1,0 +1,6 @@
+.idea
+package-lock.json
+busy
+free
+dist
+node_modules
